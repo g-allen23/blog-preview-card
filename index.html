@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Blog preview card</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Figtree", sans-serif;  
+    }
+
+    body {
+      background-color: #f4d04eff;
+      display: flex;
+      justify-content: center;
+    }
+
+    #main {
+      width: 350px;
+      gap: 10px;
+      margin-top: 100px;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 10px 10px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #ffffffff;
+    }
+
+    img {
+      border-radius: 20px;
+    }
+
+    button {
+      height: 30px;
+      width: 80px;
+      border-radius: 5px;
+      font-weight: 800;
+      border: none;
+      color: #121212ff;
+      background-color: #f4d04eff;
+    }
+
+    #paragraph-first {
+      font-size: 16px;
+      font-weight: 500;
+      color: #121212ff;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-weight: 800;
+    }
+
+    #certainly {
+      font-size: 16px;
+      font-weight: 500;
+      color: #6b6b6bff;
+    }
+
+    #author {
+      display: flex;
+      align-items: center;
+      font-weight: 800;
+      gap: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div id="main">
+    <img src="assets/images/illustration-article.svg" alt="imagem principal">
+
+    <button>Learning</button>
+    
+    <p id="paragraph-first">Published 21 Dec 2023</p>
+    
+    <h1>HTML & CSS foundations</h1>
+    
+    <p id="certainly">
+      These languages are the backbone of every website, defining structure, content, and presentation.
+    </p>
+    
+    <div id="author">
+      <img src="assets/images/image-avatar.webp" alt="imagem de perfil">
+      <p>Greg Hooper</p>
+    </div>
+  
+  </div>
+
+</body>
+
+</html>
